@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.8rem 0 2.5rem;
+
+  .back {
+    width: 25px;
+    height: 25px;
+  }
+
+  .album {
+    text-align: center;
+
+    .name {
+      color: #9a9b9b;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      padding-bottom: 0.35rem;
+    }
+
+    .title {
+      color: #fff;
+      font-size: 1.125rem;
+    }
+  }
+
+  .button {
+    background: none;
+    border: none;
+  }
+}

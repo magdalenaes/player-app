@@ -1,0 +1,26 @@
+.wrapper {
+  width: 100vw;
+  height: 5vh;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+
+  .time,
+  .duration {
+    color: #9a9b9b;
+    font-size: 0.688rem;
+    padding-top: 0.5rem;
+  }
+  .progress {
+    width: 80%;
+    background: #000;
+    height: 1px;
+    margin: 0.7rem;
+
+    .bar {
+      background-color: #2a2a2a;
+      height: 5px;
+      margin-top: -2px;
+    }
+  }
+}

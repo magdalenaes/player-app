@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "SourceSansPro", sans-serif;
+  background-image: url("../../assets/images/bg_image.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0deg, #1b1b1b 70%, rgba(27, 27, 27, 0.94) 100%),
+    rgba(27, 27, 27, 0.0001);
+}

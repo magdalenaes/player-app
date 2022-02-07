@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  height: 5.7vh;
+
+  .id {
+    margin-right: 0.6rem;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

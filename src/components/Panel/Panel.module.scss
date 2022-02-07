@@ -1,0 +1,13 @@
+.wrapper {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+
+    .play_inactive, .play_active {
+      width: 100px;
+      height: 100px;
+    }
+}
